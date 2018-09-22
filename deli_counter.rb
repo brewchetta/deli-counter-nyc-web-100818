@@ -3,7 +3,7 @@ require 'pry'
 def line(line)
   if line.length == 0
     puts "The line is currently empty"
-  else
+    return "The line is currently empty"
     string = "The line is currently: "
     i = 1
     line.each do |name|
@@ -24,7 +24,7 @@ def now_serving(line)
     puts "There is nobody waiting to be served!"
     return "There is nobody waiting to be served!"
   end
-  
+
 end
 
 binding.pry
