@@ -14,5 +14,6 @@ end
 binding.pry
 
 def take_a_number(line,name)
-  "Welcome, Ada. You are number 1 in line."
+  line.push(name)
+  puts "Welcome, #{name}. You are number #{line.length} in line."
 end
