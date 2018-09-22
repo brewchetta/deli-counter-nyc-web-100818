@@ -8,7 +8,7 @@ def line(line)
     string += i.to_s + ". " + name + " "
     i += 1
   end
-  string.trim
+  string.strip
 end
 
 binding.pry
