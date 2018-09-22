@@ -3,7 +3,7 @@ def line(line)
   string = "The line is currently: "
   i = 1
   line.each do |name|
-    string = string + i.to_s + ". " + name + " "
+    string += i + ". " + name + " "
     i += 1
   end
   string
