@@ -2,6 +2,7 @@ require 'pry'
 
 def line(line)
   puts "The line is currently empty" if line.length == 0
+  break
   string = "The line is currently: "
   i = 1
   line.each do |name|
