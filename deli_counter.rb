@@ -11,9 +11,9 @@ def line(line)
   puts string.strip
 end
 
-binding.pry
-
 def take_a_number(line,name)
   line.push(name)
   puts "Welcome, #{name}. You are number #{line.length} in line."
 end
+
+binding.pry
