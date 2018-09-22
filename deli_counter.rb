@@ -5,7 +5,7 @@ def line(line)
   string = "The line is currently: "
   i = 1
   line.each do |name|
-    string += i + ". " + name + " "
+    string += i.to_s + ". " + name + " "
     i += 1
   end
   string
