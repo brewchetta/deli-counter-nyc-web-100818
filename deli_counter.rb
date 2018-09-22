@@ -1,7 +1,7 @@
 require 'pry'
 
 def line(line)
-  return "The line is currently empty" if line.length == 0
+  puts "The line is currently empty" if line.length == 0
   string = "The line is currently: "
   i = 1
   line.each do |name|
